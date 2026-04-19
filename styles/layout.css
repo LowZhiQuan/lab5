@@ -1,0 +1,105 @@
+/* Override hover from previous lab */
+aside:hover {
+    display: block;
+}
+
+/* Menu inline */
+.menu {
+    display: inline-block;
+}
+
+/* Remove list bullets in nav */
+nav ul {
+    list-style: none;
+}
+
+/* ASIDE BOX MODEL */
+aside {
+    border: 2px solid gray;
+    margin: 1em;
+    padding: 1em;
+    background-image: url("https://via.placeholder.com/200");
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/* HEADER */
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    border-top: 4px double black;
+    clear: both;
+}
+
+/* FLOAT SECTIONS */
+#lists {
+    float: left;
+}
+
+#tables {
+    float: right;
+}
+
+/* Center table */
+table {
+    margin: auto;
+}
+
+/* CLEARING */
+#hyperlinks {
+    clear: both;
+}
+
+/* IMAGES SECTION */
+#images {
+    float: right;
+}
+
+/* FIGURE BORDER */
+figure {
+    border: 2px solid #ccc;
+}
+
+/* TWO COLUMN WIDTHS */
+#lists, #tables, #hyperlinks, #images {
+    width: 45%;
+    text-align: center;
+}
+
+/* Fix list alignment */
+ol, ul, dl {
+    text-align: left;
+}
+
+/* ARTICLE MIN WIDTH */
+article {
+    min-width: 30em;
+}
+
+/* FOOTER PARAGRAPHS */
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+    /* PSEUDO SELECTORS */
+    footer p:first-child {
+        float: left;
+    }
+
+    footer p:nth-child(2) {
+        text-align: center;
+    }
+
+    footer p:last-child {
+        float: right;
+        text-align: right;
+    }
